@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'gestionate.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'gestionate',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
+        'USER': 'root',
+        'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': 5432
+        'PORT': ''
     }
 }
 
