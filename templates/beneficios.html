@@ -1,0 +1,18 @@
+{% extends 'base1.html' %}
+{% load static %}
+{% block contenido %}
+	<!-- One -->
+	<h1>Bienestar</h1>
+	<hr size=1 style="margin-right: 86%;">
+	<br><br>
+	<div class="row">
+	<article>
+		<a href="{% url 'actividades'%}" class="image fit thumb"><img src="{% static 'images/actividad.jpeg' %}" alt="" /></a>
+		<p class="fila">Actividades</p>
+	</article>
+	<article style="width: 178px;"></article>
+	<article>
+		<a href="{% url 'promociones'%}" class="image fit thumb"><img src="{% static 'images/promocion.jpeg' %}" alt="" /></a>
+		<p class="fila">Promociones</p>
+	</article>
+{% endblock contenido %}

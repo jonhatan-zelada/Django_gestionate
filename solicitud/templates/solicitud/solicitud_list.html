@@ -1,0 +1,36 @@
+
+{% block title %}BAndeja de trabajo solicitudes{% endblock %}
+
+{% block content %}
+  <h2>GEstionate » Bandeja</h2>
+
+  <p>
+    <a href="{% url 'add_solicitud' %}">Adiciona una nueva solicitud</a>
+  </p>
+
+  <table border="1">
+    <thead class="thead-dark ">
+      <tr>
+        <th>Tipo</th>
+        <th>Descripción</th>
+        <th>Estado</th>
+        <th>Fecha de creación</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for solicitud in  solicitudes_pen %}
+        <tr>
+          <td>{{ solicitud.tipo }}</td>
+          <td>{{ solicitud.descripcion_sol }}</td>
+          <td>{{ solicitud.estado }}</td>
+          <td>{{ solicitud.creada }}</td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="4">No hay solicitudes en l a BD</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}

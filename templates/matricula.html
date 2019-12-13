@@ -1,0 +1,18 @@
+{% extends 'base1.html' %}
+{% load static %}
+{% block contenido %}
+	<!-- One -->
+	<h1>Capacitaciones Disponibles</h1>
+	<hr size=1 style="margin-right: 65%;">
+	<br><br>
+	<div class="row">
+	<article>
+		<a href="{% url 'confirm_insc'%}" class="image fit thumb"><img src="{% static 'images/transfdigital.png' %}" alt="" /></a>
+		<p class="fila">Transformación<br>Digital</p>
+	</article>
+	<article style="width: 178px;"></article>
+	<article>
+		<a href="{% url 'confirm_insc'%}" class="image fit thumb"><img src="{% static 'images/controlinterno.png' %}" alt="" /></a>
+		<p class="fila">Control Interno</p>
+	</article>
+{% endblock contenido %}

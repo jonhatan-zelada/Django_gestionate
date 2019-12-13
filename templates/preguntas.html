@@ -1,0 +1,640 @@
+{% extends 'base2.html' %}
+{% load static %}
+{% block contenido %}
+<!-- One -->
+<h1>Preguntas Frecuentes</h1>
+<hr size=1 style="margin-right: 72%;">
+
+<div class="row">	
+	<div class="accordion" id="pregunta">
+		<div class="card">
+			<div class="card-header" id="capacitacion">
+				<h2 class="mb-0">
+					<button style="text-decoration:none" class="btn btn-link" type="button" data-toggle="collapse" data-target="#pregunta_nivel" aria-expanded="true" aria-controls="capacitacion">
+						CAPACITACIÓN
+					</button>
+				</h2>
+			</div>
+			<div class="collapse hide" id="pregunta_nivel">
+				<div class="card">
+					<div class="card-header" id="capacitacion_nivel">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsePrincipal" aria-expanded="true" aria-controls="capacitacion_nivel">
+								&nbsp;&nbsp;Normativa de Capacitacion
+							</button>
+						</h2>
+					</div>
+					<div id="collapsePrincipal" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+						<div class="card-body">
+							<div class="accordion" id="preguntas_generales">
+								<div class="card">
+									<div class="card-header" id="pregunta1">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+												1.	¿Qué busca la capacitación?
+											</button>
+										</h2>
+									</div>
+									<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+										<div class="card-body">
+											La capacitación tiene como finalidad cerrar las brechas de conocimientos o competencias identificadas en los servidores civiles para que mejoren su desempeño y como consecuencia de ello se logren los objetivos institucionales de las entidades y los ciudadanos reciban servicios de calidad.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="pregunta2">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+												2.	¿Qué se define como acción de capacitación?
+											</button>
+										</h2>
+									</div>
+									<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+										<div class="card-body">
+											Acción de capacitación es la actividad de enseñanza-aprendizaje destinada a cerrar brechas o desarrollar competencias o conocimientos en el servidor civil. En Formación Laboral pueden ser talleres, cursos, seminarios, diplomados u otros que no conduzcan a grado académico ni a título profesional. Para la Formación Profesional, solo pueden ser maestrías o doctorados.
+											Las Acciones de Capacitación pueden realizarse dentro o fuera de la entidad y dentro o fuera de la jornada de servicio, a discrecionalidad de la entidad.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="pregunta3">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+												3.	¿Quiénes son los actores del ciclo de Gestión de la capacitación?
+											</button>
+										</h2>
+									</div>
+									<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+										<div class="card-body">
+											Hay actores a nivel interno y externo. Los actores a nivel externo son: SERVIR que es el ente rector de la capacitación para el sector público en los tres niveles de Gobierno; los entes rectores, en su condición de autoridad técnico-normativa, promueven y desarrollan capacitación en el ámbito de su competencia; y, los proveedores de capacitación son las universidades, institutos, centros de formación, escuelas o cualquier otra persona jurídica, pública o privada, con sede en el territorio nacional o extranjero, que brindan capacitación por Formación Laboral o Formación Profesional. Los actores a nivel interno son: el Comité de Planificación de la Capacitación que es Responsable de asegurar que la planificación de la capacitación responda a los objetivos estratégicos de la entidad y de generar condiciones favorables para la adecuada implementación de las Acciones de Capacitación; las Oficinas de Recursos Humanos que se encarga de ejecutar e implementar las normas y lineamientos dictados por SERVIR. Conduce la planificación, ejecución y evaluación de la capacitación, de acuerdo a lo previsto en el artículo 12 del Reglamento General de la Ley; los servidores civiles, el titular de la entidad que es la máxima autoridad administrativa de una entidad pública; y, los órganos y unidades orgánicas que completan la Matriz de Requerimientos de Capacitación de acuerdo al asesoramiento que brinde la ORH.
+										</div>
+									</div>
+								</div>
+							</div>
+			  			</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="otro">
+			  				<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSecundario" aria-expanded="true" aria-controls="otro">
+									&nbsp;&nbsp;Carta de Compromiso
+								</button>
+			  				</h2>
+						</div>
+						<div id="collapseSecundario" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+			  				<div class="card-body">
+								<div class="accordion" id="preguntas_generales">
+									<div class="card">
+										<div class="card-header" id="pregunta1">
+											<h2 class="mb-0">
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+													1.	¿Los servidores deben firmar algún compromiso con su entidad antes de recibir una capacitación?
+									  			</button>
+								  			</h2>
+										</div>
+										<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+											<div class="card-body">
+												Sí. Todos los servidores deben firmar un compromiso con su entidad antes de recibir una capacitación, a través del cual se comprometan a permanecer en la entidad un tiempo determinado posterior a la culminación de la capacitación, entre otros. Este compromiso puede demandar la suscripción de un contrato de mutuo sujeto a modalidad, un título valor, u otro documento de carácter legal que permita asegurar la devolución del monto invertido por la entidad en la capacitación en caso de incumplimiento de los compromisos por parte del servidor.
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="pregunta2">
+											<h2 class="mb-0">
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+									  				2.	En caso de incumplimiento de compromiso de permanencia en la entidad ¿cuánto es el monto que deben devolver los servidores a la entidad?
+									  			</button>
+								  			</h2>
+										</div>
+										<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+											<div class="card-body">
+												Si el servidor incumple el compromiso desde el día hábil siguiente a la culminación de la capacitación, el servidor debe devolver el íntegro del Valor de la Capacitación. Si el servidor permanece en la entidad algunos días como parte de su compromiso, se debe aplicar la fórmula establecida en el numeral 6.4.2.3 de la Directiva para calcular el Remanente del Valor de la Capacitación.
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="pregunta3">
+							  				<h2 class="mb-0">
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+													3.	En caso de incumplimiento de compromiso de permanencia en la entidad ¿cuánto es el monto que deben devolver los servidores a la entidad?
+												</button>
+											</h2>
+						  				</div>
+										<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+						  					<div class="card-body">
+												Si el servidor incumple el compromiso desde el día hábil siguiente a la culminación de la capacitación, el servidor debe devolver el íntegro del Valor de la Capacitación. Si el servidor permanece en la entidad algunos días como parte de su compromiso, se debe aplicar la fórmula establecida en el numeral 6.4.2.3 de la Directiva para calcular el Remanente del Valor de la Capacitación.
+								  			</div>
+										</div>
+									</div>
+				  				</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="pdp">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTercero" aria-expanded="true" aria-controls="pdp">
+									&nbsp;&nbsp;PDP-ONP
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTercero" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+							<div class="card-body">
+								<div class="accordion" id="preguntas_generales">
+									<div class="card">
+										<div class="card-header" id="pregunta1">
+											<h2 class="mb-0">
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+													1.	¿Qué contiene el PDP?
+												</button>
+											</h2>
+										</div>
+										<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+							  				<div class="card-body">
+												El Plan de Desarrollo de las Personas – PDP, es el instrumento de gestión para la planificación de las Acciones de Capacitación de cada entidad. Se elabora a partir del Diagnóstico de Necesidades de Capacitación. Es de vigencia anual y se aprueba mediante Resolución del titular de la entidad.
+												El PDP contiene aspectos generales como: misión y visión, los objetivos estratégicos, estructura orgánica, número de servidores civiles que conforman la entidad según régimen laboral, resultados del Diagnóstico de Necesidades de Capacitación y fuentes de financiamiento de las Acciones de Capacitación y la Matriz PDP que es la descripción detallada de las Acciones de Capacitación priorizadas, las cuales reciben una codificación de acuerdo a la materia de capacitación a la que pertenecen.
+											</div>
+							  			</div>
+						  			</div>
+						  			<div class="card">
+										<div class="card-header" id="pregunta2">
+							  				<h2 class="mb-0">
+								  				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+								  					2.	¿La institución puede ejecutar capacitaciones sin aprobar el PDP?
+								  				</button>
+							  				</h2>
+							  			</div>
+										<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+											<div class="card-body">
+												No. Todas las acciones de capacitación priorizadas están contenidas en el PDP que una vez aprobado, la ORH da inicio a la ejecución de las acciones de capacitación.
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header" id="pregunta3">
+											<h2 class="mb-0">
+												<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+													3.	¿Quién aprueba las capacitaciones contenidas en el Plan de Desarrollo de las Personas de la institución?
+												</button>
+											</h2>
+										</div>
+										<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+											<div class="card-body">
+												El Titular de la entidad es el responsable de aprobar el Plan de Desarrollo de las Personas, luego de que el Comité de Planificación de la Capacitación haya validado la propuesta de plan elaborado por la Oficina de Recursos Humanos. En la ONP, el Titular de la entidad para efectos del Sistema Administrativo de Recursos Humanos es el Gerenta/e General.
+											</div>
+										</div>
+									</div>
+					  			</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="sisca">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCuarto" aria-expanded="true" aria-controls="sisca">
+										&nbsp;&nbsp;SISCA-SERVIR
+									</button>
+								</h2>
+							</div>
+							<div id="collapseCuarto" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+								<div class="card-body">
+									<div class="accordion" id="preguntas_generales">
+										<div class="card">
+											<div class="card-header" id="pregunta1">
+												<h2 class="mb-0">
+													<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+														1.	¿Qué es SISCA?
+													</button>
+												</h2>
+											</div>	
+											<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+												<div class="card-body">
+													Es el Sistema Informático de Gestión de la Capacitación que implementa SERVIR en todas las entidades del sector público con la finalidad de facilitar el proceso de capacitación en las etapas de planificación, ejecución y evaluación.
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-header" id="pregunta2">	  
+												<h2 class="mb-0">
+													<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+														2.	¿Cuáles son los módulos que contiene el SISCA?
+													</button>
+												</h2>
+											</div>	
+											<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+												<div class="card-body">
+													El SISCA contiene seis (06) módulos: (i) módulo inicialización donde se carga toda la información de la institución; (ii) el módulo de planificación donde desarrolla las actividades de conformación del comité de planificación de la capacitación, sensibilización para la planificación de la capacitación, desarrollo del diagnóstico de necesidades de capacitación y la elaboración del Plan de Desarrollo de las Personas, (iii) el módulo de ejecución donde se implementan las capacitaciones aprobadas en el PDP y se monitorea el cumplimiento de los compromisos asociados a la capacitación, (iv) el módulo de evaluación contiene las evaluaciones de las acciones de capacitación para saber si se sienten satisfechos, si han aprendido los contenidos, si aplican lo aprendido a su desempeño y si la entidad mejora; los últimos dos módulos corresponden a (v) reportes y (vi) asistencia técnica servir.
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-header" id="pregunta3">
+												<h2 class="mb-0">
+													<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+														3.	¿Se debe registrar en el SISCA el cronograma de capacitación?
+													</button>
+												</h2>
+											</div>
+											<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+												<div class="card-body">										
+													Si. Dentro del módulo de planificación del SISCA se debe registrar el cronograma de capacitación, el cual contiene todos los hitos y actividades del ciclo de capacitación.                                                           
+												</div>					
+											</div>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="accordion" id="preguntaris">
+		<div class="card">
+			<div class="card-header" id="ris">
+				<h2 class="mb-0">
+					<button style="text-decoration:none" class="btn btn-link" type="button" data-toggle="collapse" data-target="#pregunta_nivel_ris" aria-expanded="true" aria-controls="ris">
+						REGLAMENTO INTERNO DEL TRABAJADOR
+					</button>
+				</h2>
+			</div>
+			<div class="collapse hide" id="pregunta_nivel_ris">
+				<div class="card">
+					<div class="card-header" id="ris">
+						<h2 class="mb-0">
+							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsePrincipal1" aria-expanded="true" aria-controls="ris_nivel">
+								&nbsp;&nbsp;Control de Asistencia
+							</button>
+						</h2>
+					</div>
+					<div id="collapsePrincipal1" class="collapse hide" aria-labelledby="ris" data-parent="#pregunta_nivel_ris">
+						<div class="card-body">
+							<div class="accordion" id="preguntas_generales">
+								<div class="card">
+									<div class="card-header" id="pregunta1">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+												1.	¿Cuándo puedo solicitar la licencia por onomástico?
+											</button>
+										</h2>
+									</div>
+									<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+										<div class="card-body">
+											La licencia por onomástico se otorga por (1) día hábil, el cual puede solicitarse dentro del mes de tu onomástico y como máximo en el mes siguiente.
+											Para solicitarlo, debes remitir un correo a cberaun@onp.gob.pe  con copia a tu jefe inmediato, en señal de conformidad y precisando la fecha a efectuar dicha licencia.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="pregunta2">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+												2.	¿Cuándo puedo presentar una declaración jurada por inasistencia?
+											</button>
+										</h2>
+									</div>
+										<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+											<div class="card-body">
+												La declaración jurada puede ser presentada por correo electrónico una vez por año calendario y dentro de las 24 horas hábiles posteriores a tu reincoporación.
+											</div>
+										</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="pregunta3">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+									3.	¿Cómo se aplican los descuentos por inasistencias y/o tardanzas?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+							<div class="card-body">
+								Las tardanzas, permisos no compensados, salidas antes de finalizar la jornada laboral se descuentan de la siguiente forma:
+								<br>Minuto de tardanza = Remuneración Mensual / 14400<br>
+								Las inasistencias(considerando omisiones de marcado) no justifcadas son objeto de descuentos y se calculan de la siguiente forma:
+								<br>Día de inasistencia = Remuneración Mensual/30 + Remuneración Mensual/900<br>
+								Nota: Ten en cuenta que las incidencias se prorratean, por ejemplo, si en este mes tuviste descuentos por inasistencias y/o tardanzas, deberás verificar la asistencia del mes anterior.
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="otro">
+				  <h2 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSecundario" aria-expanded="true" aria-controls="otro">
+						&nbsp;&nbsp;Bienestar Social
+					</button>
+				  </h2>
+			</div>
+			<div id="collapseSecundario" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+				  <div class="card-body">
+					<div class="accordion" id="preguntas_generales">
+						<div class="card">
+							<div class="card-header" id="pregunta1">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+										1.	¿Cuándo debo presentar el Descanso Médico?
+									  </button>
+								  </h2>
+							</div>
+							<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+								<div class="card-body">
+									Tienes un plazo de 72 horas hábiles a partir de la emisión del certificado. Asimismo, se recuerda que toda inasistencia debe ser comunicada dentro de las (2) horas del inicio de la jornada ya sea por teléfono o por correo al jefe inmediato.								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="pregunta2">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+										  2.	¿En qué consiste el seguro de la EPS?
+									  </button>
+								  </h2>
+							</div>
+							<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+								<div class="card-body">
+									La ONP ofrece a sus integrantes la oportunidad de afiliarse a un seguro médico privado, actualmente contratado con Rimac EPS.								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="pregunta3">
+								  <h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+										3.	¿Dónde puedo atenderme con el seguro de EPS?
+									</button>
+								</h2>
+							  </div>
+							<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+								  <div class="card-body">
+									La ONP ofrece a sus integrantes la oportunidad de afiliarse a un seguro médico privado, actualmente contratado con Rimac EPS.								  </div>
+							</div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="pdp">
+				<h2 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTercero" aria-expanded="true" aria-controls="pdp">
+						&nbsp;&nbsp;Relaciones Laborales
+					</button>
+				</h2>
+			</div>
+			<div id="collapseTercero" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+				<div class="card-body">
+					<div class="accordion" id="preguntas_generales">
+						<div class="card">
+							<div class="card-header" id="pregunta1">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+										1.	¿Qué es "SERVIDOR CIVIL"?
+									</button>
+								</h2>
+							</div>
+							<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+								  <div class="card-body">
+									De acuerdo el literal i) del artículo IV del Título Preliminar del Reglamento General de la Ley N° 30057, aprobado mediante Decreto Supremo N° 040-2014-PCM:
+									<br>“La expresión servidor civil se refiere a los servidores del régimen de la Ley organizados en los siguientes grupos: funcionario público, directivo público, servidor civil de carrera y servidor de actividades complementarias. Comprende, también, a los servidores de todas las entidades, independientemente de su nivel de gobierno, cuyos derechos se regulan por los Decretos Legislativos Nº 276, Ley de Bases de la Carrera Administrativa y de Remuneraciones del Sector Público, Nº 728, Ley de Productividad y Competitividad Laboral, de carreras especiales de acuerdo con la Ley, a los contratados bajo el régimen del Decreto Legislativo Nº 1057, así como bajo la modalidad de contratación directa a que hace referencia el presente Reglamento.”<br>						
+								</div>
+							  </div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="pregunta2">
+								  <h2 class="mb-0">
+									  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+										  2.	¿Qué es "JORNADA DE TRABAJO"?
+									  </button>
+								  </h2>
+							  </div>
+							<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+								<div class="card-body">
+									La jornada laboral es el tiempo efectivo máximo durante el cual el trabajador se encuentra a disposición del empleador para la prestación de sus servicios.
+									En la ONP, la jornada de trabajo es de 08:45(hh:mm).
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="pregunta3">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+										3.	¿Qué es un "HORARIO DE TRABAJO"?
+									</button>
+								</h2>
+							</div>
+							<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+								<div class="card-body">
+									El horario de trabajo es la distribución diaria de la jornada laboral que comprende la hora de ingreso y salida por cada día de trabajo
+									En la ONP, el horario de trabajo es el siguiente:
+									<br>Sede Central: de Lunes a viernes / de 08:00 - 17:30 horas<br>
+									Centros de Atención al Público(Lima y provincias): de Lunes a viernes / de 07:50 - 17:20 horas
+								</div>
+							</div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="accordion" id="preguntaopor">
+	<div class="card">
+		<div class="card-header" id="opor">
+			<h2 class="mb-0">
+				<button style="text-decoration:none" class="btn btn-link" type="button" data-toggle="collapse" data-target="#pregunta_nivel_opor" aria-expanded="true" aria-controls="opor">
+					OPORTUNIDADES LABORALES
+				</button>
+			</h2>
+		</div>
+		<div class="collapse hide" id="pregunta_nivel_opor">
+			<div class="card">
+				<div class="card-header" id="opor">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsePrincipal2" aria-expanded="true" aria-controls="opor_nivel">
+							&nbsp;&nbsp;SERVIR
+						</button>
+					</h2>
+				</div>
+		<div id="collapsePrincipal2" class="collapse hide" aria-labelledby="ris" data-parent="#pregunta_nivel_opor">
+			<div class="card-body">
+				<div class="accordion" id="preguntas_generales">
+					<div class="card">
+						<div class="card-header" id="pregunta1">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+									1.	¿¿Cuándo puedo solicitar la licencia por onomástico??
+								</button>
+							</h2>
+						</div>
+						<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+							<div class="card-body">
+								La licencia por onomástico se otorga por (1) día hábil, el cual puede solicitarse dentro del mes de tu onomástico y como máximo en el mes siguiente.
+								Para solicitarlo, debes remitir un correo a cberaun@onp.gob.pe  con copia a tu jefe inmediato, en señal de conformidad y precisando la fecha a efectuar dicha licencia.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="pregunta2">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+									2.	¿Cuándo puedo presentar una declaración jurada por inasistencia?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+							<div class="card-body">
+								La declaración jurada puede ser presentada por correo electrónico una vez por año calendario y dentro de las 24 horas hábiles posteriores a tu reincoporación.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="pregunta3">
+							<h2 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+									3.	¿Cómo se aplican los descuentos por inasistencias y/o tardanzas?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+							<div class="card-body">
+								Las tardanzas, permisos no compensados, salidas antes de finalizar la jornada laboral se descuentan de la siguiente forma:
+								<br>Minuto de tardanza = Remuneración Mensual / 14400<br>
+								Las inasistencias(considerando omisiones de marcado) no justifcadas son objeto de descuentos y se calculan de la siguiente forma:
+								<br>Día de inasistencia = Remuneración Mensual/30 + Remuneración Mensual/900<br>
+								Nota: Ten en cuenta que las incidencias se prorratean, por ejemplo, si en este mes tuviste descuentos por inasistencias y/o tardanzas, deberás verificar la asistencia del mes anterior.
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="otro">
+				  <h2 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSecundario" aria-expanded="true" aria-controls="otro">
+						&nbsp;&nbsp;CAS
+					</button>
+				  </h2>
+			</div>
+			<div id="collapseSecundario" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+				  <div class="card-body">
+					<div class="accordion" id="preguntas_generales">
+						<div class="card">
+							<div class="card-header" id="pregunta1">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+										1.	¿Cuándo debo presentar el Descanso Médico?
+									  </button>
+								  </h2>
+							</div>
+							<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+								<div class="card-body">
+									Tienes un plazo de 72 horas hábiles a partir de la emisión del certificado. Asimismo, se recuerda que toda inasistencia debe ser comunicada dentro de las (2) horas del inicio de la jornada ya sea por teléfono o por correo al jefe inmediato.								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="pregunta2">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+										  2.	¿En qué consiste el seguro de la EPS?
+									  </button>
+								  </h2>
+							</div>
+							<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+								<div class="card-body">
+									La ONP ofrece a sus integrantes la oportunidad de afiliarse a un seguro médico privado, actualmente contratado con Rimac EPS.								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="pregunta3">
+								  <h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+										3.	¿Dónde puedo atenderme con el seguro de EPS?
+									</button>
+								</h2>
+							  </div>
+							<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+								  <div class="card-body">
+									La ONP ofrece a sus integrantes la oportunidad de afiliarse a un seguro médico privado, actualmente contratado con Rimac EPS.								  </div>
+							</div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" id="pdp">
+				<h2 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTercero" aria-expanded="true" aria-controls="pdp">
+						&nbsp;&nbsp;PRACTICANTES
+					</button>
+				</h2>
+			</div>
+			<div id="collapseTercero" class="collapse hide" aria-labelledby="capacitacion" data-parent="#pregunta">
+				<div class="card-body">
+					<div class="accordion" id="preguntas_generales">
+						<div class="card">
+							<div class="card-header" id="pregunta1">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="pregunta1">
+										1.	¿Qué es "SERVIDOR CIVIL"?
+									</button>
+								</h2>
+							</div>
+							<div id="collapseOne" class="collapse hide" aria-labelledby="pregunta1" data-parent="#preguntas_generales">
+								  <div class="card-body">
+									De acuerdo el literal i) del artículo IV del Título Preliminar del Reglamento General de la Ley N° 30057, aprobado mediante Decreto Supremo N° 040-2014-PCM:
+									<br>“La expresión servidor civil se refiere a los servidores del régimen de la Ley organizados en los siguientes grupos: funcionario público, directivo público, servidor civil de carrera y servidor de actividades complementarias. Comprende, también, a los servidores de todas las entidades, independientemente de su nivel de gobierno, cuyos derechos se regulan por los Decretos Legislativos Nº 276, Ley de Bases de la Carrera Administrativa y de Remuneraciones del Sector Público, Nº 728, Ley de Productividad y Competitividad Laboral, de carreras especiales de acuerdo con la Ley, a los contratados bajo el régimen del Decreto Legislativo Nº 1057, así como bajo la modalidad de contratación directa a que hace referencia el presente Reglamento.”<br>						
+								</div>
+							  </div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="pregunta2">
+								  <h2 class="mb-0">
+									  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="pregunta2">
+										  2.	¿Qué es "JORNADA DE TRABAJO"?
+									  </button>
+								  </h2>
+							  </div>
+							<div id="collapseTwo" class="collapse hide" aria-labelledby="pregunta2" data-parent="#preguntas_generales">
+								<div class="card-body">
+									La jornada laboral es el tiempo efectivo máximo durante el cual el trabajador se encuentra a disposición del empleador para la prestación de sus servicios.
+									En la ONP, la jornada de trabajo es de 08:45(hh:mm).
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="pregunta3">
+								<h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThre" aria-expanded="true" aria-controls="pregunta3">
+										3.	¿Qué es un "HORARIO DE TRABAJO"?
+									</button>
+								</h2>
+							</div>
+							<div id="collapseThre" class="collapse hide" aria-labelledby="pregunta3" data-parent="#preguntas_generales">
+								<div class="card-body">
+									El horario de trabajo es la distribución diaria de la jornada laboral que comprende la hora de ingreso y salida por cada día de trabajo
+									En la ONP, el horario de trabajo es el siguiente:
+									<br>Sede Central: de Lunes a viernes / de 08:00 - 17:30 horas<br>
+									Centros de Atención al Público(Lima y provincias): de Lunes a viernes / de 07:50 - 17:20 horas
+								</div>
+							</div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<br><br>
+<h5>Si aún tienes dudas, por favor dejanos tu consulta ingresando <a href="{% url 'add_tema' %}">aquí</a></h5>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="{% static 'assets/js/bootstrap.js' %}"></script>
+	
+{% endblock contenido %}

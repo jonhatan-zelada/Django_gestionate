@@ -1,0 +1,25 @@
+{% extends 'base1.html' %}
+{% load static %}
+{% block contenido %}
+	<!-- One -->
+	<h1>Capacitaciones</h1>
+	<hr size=1 style="margin-right: 80%;">
+	<br><br>
+	<div class="row">
+		<article>
+			<a href="http://e-learning.onp.gob.pe/" target="_blank" class="image fit thumb"><img src="{% static 'images/elearning.jpeg' %}" alt="" /></a>
+			<p  class="fila">E-learning ONP</p>
+		</article>
+		<article style="width: 178px;"></article>
+		<article>
+			<a href="http://siscapacitacion.servir.gob.pe/GestionCapacitacionWeb/faces/administracion/organo_unidad_listado.xhtml"  target="_blank" 
+			class="image fit thumb"><img src="{% static 'images/servir.jpeg' %}" alt="" /></a>
+			<p class="fila">SISCA - SERVIR</p>
+		</article>
+		<article style="width: 178px;"></article>
+		<article>
+			<a href="{% url 'matricula'%}" class="image fit thumb"><img src="{% static 'images/capas.jpeg' %}" alt="" /></a>
+			<p  class="fila">Capacitaciones<br>Disponibles</p>
+		</article>
+	</div>
+{% endblock contenido %}

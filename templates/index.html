@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block contenido %}
+<!-- One -->
+<h1>Servicios</h1>
+<hr size=1 style="margin-right: 88%;">
+<br><br>
+<div class="row">
+<article>
+	<a href="{% url 'add_solicitud'%}" class="image fit thumb"><img src= "{% static 'images/solicitud1.jpeg' %}"  alt="" /></a>
+	<p style="text-align: center; font-size: 24px; color: #8b8d98; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;Solicitudes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</article>
+<article style="width: 178px;">
+</article>
+<article>
+	<a href="{% url 'capacitacion' %}" class="image fit thumb"><img src= "{% static 'images/capacitacion1.jpeg' %}" alt="" /></a>
+	<p style="text-align: center; font-size: 24px; color: #8b8d98; line-height: normal;">Capacitaciones</p>
+</article>
+<article style="width: 178px;">
+</article>
+<article>
+	<a href= "{% url 'beneficios' %}" class="image fit thumb"><img src="{% static 'images/beneficio1.jpeg' %}" alt="" /></a>
+	<p style="text-align: center; font-size: 24px; color: #8b8d98 ; line-height: normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bienestar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</article>
+<article style ="width: 178px;">
+</article>
+{% endblock contenido %}

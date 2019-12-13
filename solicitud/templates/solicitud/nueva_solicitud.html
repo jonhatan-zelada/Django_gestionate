@@ -1,0 +1,24 @@
+{% extends 'base1.html' %}
+{% load static %}
+{% block contenido %}
+
+{% block content %}
+  <!-- One -->
+  <h1>Solicitudes</h1>
+  <hr size=1 style="margin-right: 85%;">
+<form id="solicitudForm" method="post" style="font-size: x-large;">
+  {% csrf_token %}
+  {% for field in form %}
+    <div>
+      {{ field.errors }}
+      {{ field.label_tag }} <br>      
+      {{ field }}<br>
+    </div>
+  {% endfor %}
+  <br>
+  <button class="button" style="font-size: large;" type="submit">Enviar Solicitud</button>
+</form>
+
+
+{% endblock content %}
+{% endblock contenido %}

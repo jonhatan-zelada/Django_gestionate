@@ -1,0 +1,32 @@
+
+{% block title %} Preguntas registradas{% endblock %}
+
+{% block content %}
+  <h2>GEstionate » Bandeja de temas</h2>
+
+
+
+  <table border="1">
+    <thead class="thead-dark ">
+      <tr>
+        <th>tema</th>
+        <th>Descripción</th>
+        <th>Fecha de creación</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for tema in  temas_nuevos %}
+        <tr>
+          <td>{{ tema.tipotema }}</td>
+          <td>{{ tema.descripcion_tema }}</td>
+          <td>{{ tema.fechatemacreada }}</td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="4">No hay tema en la BD</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}

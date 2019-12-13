@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MI HOME ONP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/css/main.css'%}" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+		<header id="principal">
+				<h1>Gestiónate</h1>
+				<nav style="left: 20em;">
+					<ul>
+						<ul class="actions">
+							<li><a href="{% url 'gohome' %}" class="inicio">Inicio</a></li>
+						</ul>
+					</ul>
+				</nav>
+				<nav style="right: 10em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+					<h1>ONP</h1>
+				</nav>
+		</header>
+		<header id="header">
+			<div class="inner">
+				<h1>&nbsp;</h1>
+				&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="image avatar"><img src= "{% static 'images/avatar.jpeg' %}"  alt="" /></a>
+				<h1><strong>Natali Socla</strong></h1>
+				<br>
+				<h3 style="text-align: center;">Ejecutiva de Desarrollo Profesional</h3>
+			</div>
+		</header>
+		<!-- Main -->
+		
+		<div id="main">
+            {% block contenido %}
+            {% endblock contenido %}
+		</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul>
+						<li><a href="{% url 'preguntas'%}" class="button">Preguntas Frecuentes</a></li>
+					</ul>
+				</div>
+			</footer>
+
+			
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script> 
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+            {% block js %}{% endblock js%}
+			 
+			
+
+	</body>
+</html>
